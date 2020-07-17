@@ -10,8 +10,16 @@
 //use the built-in array method .map
   
   //Code here
+function dragonMapper(arr){
+  arr.map(function(obj,i){
+    return obj += '...here be dragons'
+  })
+}
 
 
+// let postTaxPrices = prices.map(function(element, index, array){
+//   return element * 1.07
+// })
 
 //////////////////PROBLEM 2////////////////////
 
@@ -21,6 +29,18 @@
 //cookieLoversOnly should return the filtered array.
   
   //Code here
+function cookieLoversOnly(arr){
+  arr.filter(function(obj){
+     return obj.favoriteCookie
+  })
+}
+
+//          key    val
+// array = [{obj:"sadfasdf"}, {obj}, {obj} ]
+
+// const fifteenGang = inventors.filter(function(person){
+//   return person.year > 1499 && person.year < 1600
+// })
 
 
 //////////////////PROBLEM 3////////////////////
@@ -35,7 +55,9 @@
 
 
   //Code here
+// function changeValue(arr, cb){
 
+// }
 
 
 //////////////////PROBLEM 4////////////////////
@@ -48,6 +70,15 @@
   
   //Code here
 
+  function findProduct(arr){
+    arr.reduce(function(acc, curr){
+      return acc * curr
+    },0)
+  }
+
+  // let totalPopulation = populations.reduce(function(acc, curr, index, array){
+  //   return acc + curr
+  // },0)
 
 //////////////////PROBLEM 5////////////////////
 
