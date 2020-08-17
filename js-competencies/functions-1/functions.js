@@ -23,7 +23,9 @@ try {
 //the string "Hey " plus the name.
 
 //Code here
-
+function hey(name){
+  return  `Hey ${name}`
+}
 
 ///////////////////Problem 2//////////////////
 //Create a function called hi, using a function
@@ -31,7 +33,9 @@ try {
 //the string "Hi " plus the name.
 
 //Code here
-
+let hi = function(name){
+  return `Hi ${name}`
+}
 
 ///////////////////Problem 3//////////////////
 //Create a function called hello, using an arrow
@@ -39,7 +43,9 @@ try {
 //the string "Hello " plus the name.
 
 //Code here
-
+hello = (name) => {
+  return `Hello ${name}`
+}
 
 ///////////////////Problem 4//////////////////
 //Create a function named fun, which takes in
@@ -49,7 +55,11 @@ try {
 //variable called funTimes.
 
 //Code here
+function fun (str){
+  return `${str}!!!!!` 
+}
 
+funTimes = fun('Yay')
 
 ///////////////////Problem 5//////////////////
 //Finish the function 'climb' below. Use the built-in local
@@ -76,6 +86,8 @@ function climb() {
   console.log('function climb\'s local arguments var - ', arguments)
 
   //CODE HERE - DO NOT TOUCH THE CODE ABOVE!
+//  if (arguments[0] == true && arguments[1] == false ){
+//    return 'On belay?'
+//  }
 
 }
-
