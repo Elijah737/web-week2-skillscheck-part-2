@@ -11,8 +11,8 @@
   
   //Code here
 function dragonMapper(arr){
-  arr.map(function(obj,i){
-    return obj += '...here be dragons'
+  arr.map((obj,i) => {
+    return `${obj}...here be dragons`
   })
 }
 

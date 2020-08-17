@@ -26,8 +26,7 @@ function EgyptianGoddesses(name, oversees, strength, weakness) {
 var maatCharacteristics = ['Maat', 'Truth and Justice', 'Balancing and Just', 'Exacting in her standards']
 
 //Code here
-
-
+// let maat = new EgyptianGoddesses('Maat', 'Truth and Justice', 'Balancing and Just', 'Exacting in her standards')
 
 //////////////////PROBLEM 2////////////////////
 
